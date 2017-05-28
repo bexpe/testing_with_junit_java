@@ -35,7 +35,6 @@ public class FilePartReader {
 	public String readLines() throws FileNotFoundException {
 		StringBuilder sb = new StringBuilder();
 		FilePartReader lines = new FilePartReader();
-		this.filePath.toString();
 		String allFile = lines.read("src/main/resources/test_data.txt");
 		String[] allFileLines = allFile.split("\r\n|\r|\n");
 		int i = 1;
