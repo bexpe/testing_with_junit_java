@@ -5,3 +5,17 @@
 .idea/
 
 /target/
+
+# IntelliJ
+out/
+.idea
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+/.classpath
+/.settings/
+/.project
+/bin/
+
